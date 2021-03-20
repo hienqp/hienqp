@@ -25,14 +25,14 @@ public class HienQuangPham {
         MY_CITY    = "HOCHIMINH",
         MY_COUNTRY = "VIETNAM";
     
-    List<String> myToolList = new LinkedList<>();
+    Set<String> myToolList = new HashSet<>();
     myToolList.add("IntelliJ IDEA");
     myToolList.add("Android Studio");
     myToolList.add("Git");
     myToolList.add("GitHub");
     myToolList.add("VSCode");
 
-    List<String> myLanguageList = new LinkedList<>();
+    Set<String> myLanguageList = new HashSet<>();
     myLanguageList.add("Java");
     myLanguageList.add("SQL");
     myLanguageList.add("XML");
