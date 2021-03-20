@@ -1,4 +1,3 @@
-### Hi there 👋
 ___
 <!--
 **hienqp/hienqp** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
@@ -15,7 +14,12 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 ```java
-import java.mylife.AboutMe;
+// Hi there !!!
+// Nice to meet you!!! And thanks for your watching!!!
+// Here is my introducing.
+
+import java.util.Set;
+import java.util.HashSet;
 
 public class HienQuangPham {
     public static final String 
