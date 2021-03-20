@@ -25,23 +25,25 @@ import java.util.HashSet;
 
 public class HienQuangPham {
     public static final String 
-        VIE_NAME   = "PHẠM QUANG HIỀN",
-        ENG_NAME   = "JACK PHAM",
-        BIRTHDAY   = "10/01/1990",
-        MY_CITY    = "HOCHIMINH",
-        MY_COUNTRY = "VIETNAM";
+        VIE_NAME    = "PHẠM QUANG HIỀN",
+        ENG_NAME    = "JACK PHAM",
+        BIRTHDAY    = "10/01/1990",
+        CITY        = "HOCHIMINH",
+        NATIONALITY = "VIETNAM";
     
-    Set<String> myToolList = new HashSet<>();
-    myToolList.add("IntelliJ IDEA");
-    myToolList.add("Android Studio");
-    myToolList.add("Git");
-    myToolList.add("GitHub");
-    myToolList.add("VSCode");
+    public static void main(String[] agrs) {
+        Set<String> myToolList = new HashSet<>();
+        myToolList.add("IntelliJ IDEA");
+        myToolList.add("Android Studio");
+        myToolList.add("Git");
+        myToolList.add("GitHub");
+        myToolList.add("VSCode");
 
-    Set<String> myLanguageList = new HashSet<>();
-    myLanguageList.add("Java");
-    myLanguageList.add("SQL");
-    myLanguageList.add("XML");
-    myLanguageList.add("Markdown");
+        Set<String> myLanguageList = new HashSet<>();
+        myLanguageList.add("Java");
+        myLanguageList.add("SQL");
+        myLanguageList.add("XML");
+        myLanguageList.add("Markdown");
+    }
 }
 ```
