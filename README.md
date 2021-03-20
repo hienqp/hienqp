@@ -18,6 +18,8 @@ Here are some ideas to get you started:
 // Nice to meet you!!! And thanks for your watching!!!
 // Here is my introducing.
 
+package mylife.aboutme;
+
 import java.util.Set;
 import java.util.HashSet;
 
